@@ -29,5 +29,8 @@
 /* header below nav, hides when scrolled */
 
 /* photos of projects, uniform background, scroll effects */
-
+img {
+  height: 500px;
+  width: 500px;
+}
 /* footer */

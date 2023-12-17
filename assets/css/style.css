@@ -2,6 +2,16 @@
 .navBar {
   display: flex;
   justify-content: end;
+  background-color: aqua;
+}
+
+.navBar li {
+  display: inline-flex;
+  justify-content: space-evenly;
+  border-right-style: solid;
+  height: fit-content;
+  font-size: 30px;
+  padding-right: 5px;
 }
 
 /* header below nav, hides when scrolled */

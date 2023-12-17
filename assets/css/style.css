@@ -1,4 +1,8 @@
 /* top nav bar */
+.navBar {
+  display: flex;
+  justify-content: end;
+}
 
 /* header below nav, hides when scrolled */
 

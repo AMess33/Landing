@@ -17,6 +17,8 @@ svg {
 }
 /* top nav bar */
 .navBar {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: end;
   background-image: linear-gradient(to right, white, grey, black);
@@ -49,11 +51,11 @@ svg {
 
 /* header below nav, hides when scrolled */
 .header {
-  background-image: linear-gradient(to right, red, white, blue);
+  background-image: linear-gradient(to right, white, grey, black);
   color: white;
   height: 100px;
   padding-left: 20px;
-  text-shadow: 2px 2px 4px blue;
+  text-shadow: 2px 2px 4px black;
 }
 
 /* photos of projects, uniform background, scroll effects */

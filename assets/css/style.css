@@ -43,6 +43,10 @@ svg {
   background-color: blue;
 }
 
+.navBar li:not(:last-child) {
+  border-right: 1px solid white;
+}
+
 /* header below nav, hides when scrolled */
 .header {
   background-image: linear-gradient(to right, red, white, blue);

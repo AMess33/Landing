@@ -27,6 +27,10 @@
 }
 
 /* header below nav, hides when scrolled */
+.header {
+  background-color: black;
+  border: 3px solid green;
+}
 
 /* photos of projects, uniform background, scroll effects */
 img {

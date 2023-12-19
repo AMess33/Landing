@@ -30,6 +30,7 @@
 .header {
   background-color: black;
   border: 3px solid green;
+  color: white;
 }
 
 /* photos of projects, uniform background, scroll effects */

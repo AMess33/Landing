@@ -5,6 +5,7 @@
 
 body {
   line-height: 1.5;
+  background-image: linear-gradient(to right, white, grey, black);
 }
 
 img,
@@ -21,7 +22,6 @@ svg {
   top: 0;
   display: flex;
   justify-content: end;
-  background-image: linear-gradient(to right, white, grey, black);
 }
 .navBar ul {
   list-style-type: none;
@@ -51,7 +51,6 @@ svg {
 
 /* header below nav, hides when scrolled */
 .header {
-  background-image: linear-gradient(to right, white, grey, black);
   color: white;
   height: 100px;
   padding-left: 20px;

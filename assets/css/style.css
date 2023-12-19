@@ -1,5 +1,19 @@
+/* override default styling */
 * {
   margin: 0;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
 /* top nav bar */
 .navBar {
@@ -32,9 +46,11 @@
 /* header below nav, hides when scrolled */
 .header {
   background-image: linear-gradient(to right, red, white, blue);
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   color: white;
+  height: 100px;
   padding-left: 20px;
+  text-shadow: 2px 2px 4px blue;
 }
 
 /* photos of projects, uniform background, scroll effects */

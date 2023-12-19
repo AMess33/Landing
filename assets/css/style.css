@@ -50,7 +50,6 @@ svg {
 /* header below nav, hides when scrolled */
 .header {
   background-image: linear-gradient(to right, red, white, blue);
-  /* border: 3px solid blue; */
   color: white;
   height: 100px;
   padding-left: 20px;

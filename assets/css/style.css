@@ -6,6 +6,7 @@
 body {
   line-height: 1.5;
   background-image: url("../images/wooden-grain-texture-4.webp");
+  width: 100%;
 }
 
 img,
@@ -65,7 +66,7 @@ svg {
   text-align: center;
   text-shadow: 2px 2px 4px black;
 }
-img {
+.projects img {
   margin: 15px;
   display: block;
   margin-left: auto;
@@ -74,3 +75,10 @@ img {
   width: 70%;
 }
 /* footer */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 33%;
+}

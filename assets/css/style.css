@@ -58,6 +58,13 @@ svg {
 }
 
 /* photos of projects, uniform background, scroll effects */
+
+.projects h3 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
 img {
   margin: 15px;
   display: block;

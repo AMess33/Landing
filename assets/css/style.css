@@ -66,6 +66,9 @@ svg {
   text-align: center;
   text-shadow: 2px 2px 4px black;
 }
+
+/* images on the page */
+/* i want to break up the sections and create animations/slide buttons for the images in each section */
 .projects img {
   margin: 15px;
   display: block;

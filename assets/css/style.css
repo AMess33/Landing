@@ -60,6 +60,10 @@ svg {
 
 /* photos of projects, uniform background, scroll effects */
 
+.mySlides {
+  display: none;
+}
+
 .projects h3 {
   color: white;
   font-size: 50px;

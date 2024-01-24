@@ -9,14 +9,6 @@ body {
   width: 100%;
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
 /* top nav bar */
 .navBar {
   position: sticky;
@@ -75,12 +67,28 @@ svg {
 /* i want to break up the sections and create animations/slide buttons for the images in each section */
 .projects img {
   margin: 15px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   height: 500px;
   width: 70%;
 }
+/* previous next buttons on slide sections */
+.prev,
+.next {
+  cursor: pointer;
+  /* position: absolute; */
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
 /* footer */
 .logo {
   display: block;

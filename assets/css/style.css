@@ -52,7 +52,10 @@ body {
 
 /* photos of projects, uniform background, scroll effects */
 
-.mySlides {
+.diningSlides,
+.epoxySlides,
+.furnitureSlids,
+.cuttingSlides {
   display: none;
 }
 
